@@ -2,15 +2,15 @@
 <html lang="en">
 
  <head>
-    <meta name=viewport content="width=device-width, initial-scale=1"> 
+    <meta name=viewport content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0"/> 
     <link rel="stylesheet" href="css/styles.css">
     <title>Mobile Responsive portfolio </title>
  </head>
 
  <body>
     
-    <header>
-      <section>
+    <header id="home">
+      <!-- <section id="home"> -->
       <div class="student-name">Steven Rodriguez</div>
       <nav>        
         <div class="nav-links"> 
@@ -19,58 +19,72 @@
          <a href="#contact"><div class="link">Contact</div></a>        
         </div>         
       </nav> 
-      <img class="profile"src="images/responsive-layout-profile.png" alt="profile picture">
+      <img src="images/responsive-layout-profile.png" alt="profile picture" class="profile">
       <div class="ptag"> <p> Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p> </div>      
-      </section>   
+      <!-- </section>    -->
     </header> 
 
     <main>
-      <section>
-        <h1>Portfolio</h1>
-        <div class="marketing-page">
-          <img class="images" src="images/portfolio-1.png" alt="marketing-page">
+      <!-- <section id="portfolio"> -->
+        <h1 id="portfolio">Portfolio</h1>
+        <section>
+          <img src="images/portfolio-1.png" alt="marketing-page">
           <h2>Marketing Page</h2>
-          <p class="mainptag">This project shows the front page of a marketing website meant for a specific business i'm interested in.</p>
-        </div>
+          <p>This project shows the front page of a marketing website meant for a specific business i'm interested in.</p>
+        </section>
 
-       <div class="search-page">
-          <img class="images" src="images/portfolio-2.png" alt="search-page">
+       <section>
+          <img src="images/portfolio-2.png" alt="search-page">
           <h2>Search Page</h2>
-          <p class="mainptag">This project searches through specific database to find information that the user is trying to look up.</p>
-        </div>
+          <p>This project searches through specific database to find information that the user is trying to look up.</p>
+        </section>
 
-        <div class="travel-page">
-          <img class="images" src="images/portfolio-3.png" alt="travel-page">
+        <section>
+          <img src="images/portfolio-3.png" alt="travel-page">
           <h2>Travel App</h2>
-          <p class="mainptag">This project compares travel times based on different transportation methods and tells you the best one.</p>
-        </div>
+          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+        </section>
 
-       <!--  <div class="map-page">
+        <section>
           <img src="images/portfolio-4.png" alt="map-page">
           <h2>Map of Favorite Spots</h2>
           <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourslef walking tour.</p>
-        </div>
+        </section>
 
-        <div class="photo-page">
+        <section>
           <img src="images/portfolio-5.png" alt="photo-page">
           <h2>Photo Gallery</h2>
           <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-        </div>
+        </section>
 
-        <div class="calc-page">
+        <section>
           <img src="images/portfolio-6.png" alt="calc-page">
-          <h2>Calaculator</h2>
-          <p>Someone can enter in the numbers they, and press the big blue button and get the results.</p>
-        </div> -->
-
-
-      </section>
-
+          <h2>Calculator</h2>
+          <p>Someone can enter in the numbers they want, and press the big blue button and get the results.</p>
+        </section> 
+      <!-- </section> -->
     </main> 
+    <footer>
+<!-- 
+      <section id="contact"> -->
+      <h2 id="contact">Contact</h2>
+      <p class="footerptag">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you! </p>
+      <div class="contact-info">
+      <span>Phone:<strong> +1 (111) 555-1234</strong></span>
+      <br>
+			<span>Email:<strong> email@yoursite.com</strong></span>
+      </div>
+
+      <hr>
+            
+      <nav class="footer-links">
+        <p class="footer-name">Steven Rodriguez</p>
+         <a href="#top"> Back to Top </a>
+        </div>
+      </nav>
+      <!-- </section>  -->
+   
+    </footer>
 
  </body>
-
-  <footer>
-      
-  </footer>
 </html>
