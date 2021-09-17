@@ -1,9 +1,11 @@
  * {
     box-sizing: border-box;
-    margin: 0;  
+    margin: 0;   
 }
 
 body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
     margin:0;
     padding:0;
 }
@@ -67,7 +69,7 @@ nav {
 }
   
 p {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 
@@ -84,12 +86,12 @@ h1 {
     text-align: center;
 }
 
-/* main {
+ main {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 
-} */
+} 
 
 main img {
     width: 80%;
@@ -109,28 +111,31 @@ main p {
     margin: 20px 0px;
 }
 
-main section {
+ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 
+   
 } 
 
 footer {
     display:flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center; 
     background-color: whitesmoke;
     width: 100vw;
-    height: auto;
+    height: auto; 
 }
 
 .footer-name {
-    text-align:left;
-    margin-top: 30px;
+    text-align:left; 
+    margin-right: auto;
+    /* margin-top: 30px; */
     margin-left: 30px;
     margin-bottom: 40px;
 }
+
+
 
 .contact-info {
     text-align: center;
@@ -155,14 +160,20 @@ footer {
     text-decoration: none;
 } 
 
+
  .footer-links {
-    text-align: right;
+    text-align: right; 
     width: 100%;
     display: flex;
     text-decoration: none;
 }  
-
-
+.hide {
+    display: none;
+}
+hr {
+    width: 100%;
+    color: black;
+}
 
 
 
@@ -181,25 +192,24 @@ footer {
     height: auto;
     } 
 
-    main div {
+    main {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    div {
-        width: 49%;
+    section {
+        width: 50%;
         margin-bottom: 50px;
         justify-content: flex-start;
     } 
 
     h2 {
         margin-bottom: -5px;
-
     }
 
-  
-    footer p {
-        width: 70%;
+    h1{
+        width: 100%;
+        text-align: center;
     }
 
     .student-name {
@@ -237,16 +247,34 @@ footer {
         margin-right: 50px;
 
     }
-
     
-  
+    footer p {
+        width: 70%;
+    }
 
-    .footerptag {
+    .footer-links {
+        text-align: right; 
         width: 100%;
-        color: grey;
-        font-size: 1.2rem;
-        text-align: center;
-        margin-bottom: 20px;   
+        display: flex;
+        text-decoration: none;
+        justify-content: space-between;
+    }
+
+    footer div {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin: 0 10px;
+        width: 100%;
+        
+    }
+
+   
+    .totop {
+        display: none;
+    } 
+
+    .hide {
+        display: contents;
     }
 
 }
@@ -254,10 +282,51 @@ footer {
 
 
 
-
-
-
-/* 
+ 
 @media screen and (min-width: 1024px) {
+
+    section {
+        width: 33%;
+    }
+
+    .student-name {
+        width: 50%;
+        margin-left: 35px;
+        text-align: left;
+    }
+    
+    .ptag {
+        color: grey;  
+    }
+
+    nav {
+        width: auto;
+        margin-left: auto;
+    }
+
+    .nav-links {
+        width: auto;
+        margin: 40px 0px;
+        margin-left: auto;
+        margin-right: 40px;
+        height: 40px;
+       
+    }
+
+    .link {
+        font-size: 1rem;
+        margin: 0px 10px;
+    }
+
+    footer p { 
+        width: 70%
+    } 
+    .footer-links{
+        padding: 25px;
+    }
+
   
-}  */
+
+}
+  
+
